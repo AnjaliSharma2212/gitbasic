@@ -25,7 +25,7 @@ function printDown(n) {
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log("Even Numbers:", findEvenNumbers(numbers));
 console.log("Odd Numbers:", findOddNumbers(numbers));
-//Printing the pattern
+//Output the pattern
 console.log("Pattern:");
 printPattern(5);
 printDown(5);
