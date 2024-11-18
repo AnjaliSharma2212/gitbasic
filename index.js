@@ -14,11 +14,18 @@ function printPattern(n) {
         console.log('* '.repeat(i));
     }
 }
+// print downward pattern
+function printDown(n) {
+    for (let i = n; i >= 1; i--) {
+        console.log("* ".repeat(i));
+    }
+}
 
 // Test the functions
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log("Even Numbers:", findEvenNumbers(numbers));
 console.log("Odd Numbers:", findOddNumbers(numbers));
-
+//Printing the pattern
 console.log("Pattern:");
 printPattern(5);
+printDown(5);
